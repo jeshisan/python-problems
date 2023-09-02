@@ -1,0 +1,11 @@
+#Base class
+class Teacher:
+  def Mit(self):
+      print("the function is the parent class")
+class Student:
+   def san(self):
+       print("the function is the child class")
+obj = student()
+obj.Mit()
+obj.San()
+      
