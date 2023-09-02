@@ -2,6 +2,7 @@
 class Teacher:
   def Mit(self):
       print("the function is the parent class")
+#Derived class
 class Student:
    def san(self):
        print("the function is the child class")
