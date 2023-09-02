@@ -1,0 +1,21 @@
+ 
+ 
+class Principal:
+  def __init__(self, Principalname):
+        self.Principalname = Principalname
+class HOD(Principal):
+    def __init__(self, HODname, Principalname):
+        self.HODname = HODname
+Principal.__init__(self, Principalname)
+class stud(HOD):
+    def __init__(self, studname, HODname, Principalname):
+        self.studname = studname
+  HOD.__init__(self, HODname, Principalname)
+
+    def print_name(self):
+        print("Principal name :', self.Principalname)
+        print("HOD name :", self.HODname)
+        print("stud name :", self.studname)
+obj = stud('Mithra', 'Ramesh', 'Anbazhagan')
+print(s1.Principalname)
+obj.print_name()
