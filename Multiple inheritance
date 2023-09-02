@@ -1,0 +1,20 @@
+#Base class
+class principal:
+  principalname = "Anbazhagan"
+ def Mit(self):
+   print(self.principalname)
+#Base clas2
+class HOD:
+   HODname = "Ramesh"
+  def San(self):
+  print(self.HODname)
+#Derived class
+class incharge:
+  inchragename = "Gopinathan"
+def Jesh(self):
+   print("HOD:",self.HODname)
+   print("principal:",self.principalname)
+obj = incharge
+obj.principalname()
+obj.HODname()
+obj.Jesh()
